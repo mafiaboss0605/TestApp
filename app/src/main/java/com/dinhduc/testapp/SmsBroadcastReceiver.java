@@ -5,9 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
-import android.text.SpannableString;
-import android.text.SpannableStringBuilder;
-import android.util.Log;
 
 /**
  * Created by Nguyen Dinh Duc on 8/10/2015.
