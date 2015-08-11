@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blue">#3870ae</color>
+    <color name="search_background">#f9f9f9</color>
+    <color name="me_sms_bgcolor">#d8f2ff</color>
+    <color name="other_sms_bgcolor">#f6f6f6</color>
+    <color name="background">#dce1e7</color>
+</resources>

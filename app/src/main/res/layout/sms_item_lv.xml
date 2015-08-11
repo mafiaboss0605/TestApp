@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/layout_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/icon_other"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_contact" />
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/sms_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/other_sms_bgcolor"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/sms_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/me_sms_bgcolor"
+            android:padding="10dp" />
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/icon_me"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_contact" />
+
+    </LinearLayout>
+</RelativeLayout>
